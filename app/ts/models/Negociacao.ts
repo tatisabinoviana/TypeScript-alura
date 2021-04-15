@@ -1,6 +1,8 @@
-// app/js/models/Negociacao.js
-
 class Negociacao {
+
+    private _data;
+    private _quantidade;
+    private _valor;
 
     constructor(data, quantidade,  valor) {
 

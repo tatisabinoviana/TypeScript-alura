@@ -1,6 +1,3 @@
-// app/js/app.js
-
-let negociacao = new Negociacao(new Date(), 1, 100);
-console.log(negociacao);
+const negociacao = new Negociacao(new Date(), 1, 100);
 negociacao._quantidade = 3; 
-console.log(negociacao.quantidade); // modificou
+console.log(negociacao.quantidade);

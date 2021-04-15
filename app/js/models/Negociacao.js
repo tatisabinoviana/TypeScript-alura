@@ -1,4 +1,3 @@
-// app/js/models/Negociacao.js
 class Negociacao {
     constructor(data, quantidade, valor) {
         this._data = data;
