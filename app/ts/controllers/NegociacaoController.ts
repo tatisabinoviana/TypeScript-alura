@@ -1,7 +1,5 @@
-import { NegociacoesView } from '../views/NegociacoesView';
-import { MensagemView } from '../views/MensagemView';
-import { Negociacoes } from '../models/Negociacoes';
-import { Negociacao } from '../models/Negociacao';
+import { NegociacoesView, MensagemView } from '../views/index';
+import { Negociacoes, Negociacao } from '../models/index';
 export class NegociacaoController {
 
     private _inputData: JQuery;
@@ -16,6 +14,7 @@ export class NegociacaoController {
         this._inputQuantidade = $('#quantidade');
         this._inputValor = $('#valor');
         this._negociacoesView.update(this._negociacoes);
+
     }
     adiciona(event: Event) {
 
